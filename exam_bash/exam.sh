@@ -1,8 +1,14 @@
-#!/bin/bash          
-launch() {
-echo"$(date)">>sales.txt
-for t in ${products[@]}; do
-  echo {products[t]}&:& curl http://0.0.0.0:500/${products[t]} >> sales.txt
+#!/bin/bash  
+
+
+call() {
+
+echo $(date) >> sales.txt
+products=(rtx3060 rtx3070 rtx3080 rtx3090 rx6700)
+for key in "${products[@]}" 
+do
+  
+  echo $key: $(curl "http://0.0.0.0:5000/$key") >> sales.txt
 done
 }
 
