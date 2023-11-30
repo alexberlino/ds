@@ -1,0 +1,37 @@
+1. Question statement 1
+Number of arguments in the people.json: 83
+2. Question statement 2
+Number of unknowns: 
+3. Question statement 3
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4
+5. Question statement 5
+1. Question statement 1
+Number of arguments in the people.json: 83
+2. Question statement 2
+Number of unknowns: 
+3. Question statement 3
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4
+5. Question statement 5
+1. Question statement 1
+Number of arguments in the people.json: 83
+2. Question statement 2
+Number of unknowns: ==> people.json <==
+]
+3. Question statement 3
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4
+5. Question statement 5
+1. Question statement 1
+Number of arguments in the people.json: 83
+2. Question statement 2
+Number of unknowns: 
+3. Question statement 3
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4
+5. Question statement 5

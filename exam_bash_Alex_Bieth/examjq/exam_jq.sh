@@ -1,14 +1,34 @@
 #!/bin/bash
 
-echo "1. Statement of question 1"
-<command to respond>
-echo "Command: <command to respond>"
-echo "Answer: answer question 1 if asked"
-echo -e "\n--------------------------------------\n"
-...
+number=$(jq length people.json)
+people=$(jq '.[] | .name' people.json)
 
-echo "n. Question statement n"
-<command to respond>
+sudo apt-get install jq
+
+echo "1. Question statement 1: number of arguments">> res_jq.txt
+echo "Number of arguments in the people.json: $number">> res_jq.txt
+echo "People names: $people"
+
+
+nb_unknown=$jq '.[] | select(.birth_year=="unknown") | length ' people.json
+echo "2. Question statement 2: Unknow date of birth">> res_jq.txt
+echo "Number of unknowns: $nb_unknown" >> res_jq.txt
+
+
+echo "3. Question statement 3: each character's creation date and name.">> res_jq.txt
+echo "Command: <command to respond>">> res_jq.txt
+echo "Answer: answer question 1 if asked">> res_jq.txt
+
+
+
+
+echo "4. Question statement 4:  characters are born at the same time">> res_jq.txt
 echo "Command: <command to respond>"
 echo "Answer: answer question 1 if asked"
-echo -e "\n--------------------------------------\n"
+
+
+
+
+echo "5. Question statement 5">> res_jq.txt
+echo "Command: <command to respond>"
+echo "Answer: answer question 1 if asked"
