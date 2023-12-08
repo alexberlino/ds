@@ -1,4 +1,6 @@
 #!/bin/bash  
+
+
 call() {
 
 echo $(date) >> sales.txt
@@ -9,4 +11,8 @@ do
   echo $key: $(curl "http://0.0.0.0:5000/$key") >> sales.txt
 done
 }
+
+call
+
+
 

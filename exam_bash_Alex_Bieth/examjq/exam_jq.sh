@@ -6,11 +6,16 @@ people=$(jq '.[] | .name' people.json)
 sudo apt-get install jq
 
 echo "1. Question statement 1: number of arguments">> res_jq.txt
-echo "Number of arguments in the people.json: $number">> res_jq.txt
-echo "People names: $people"
+echo "Number of people in the people.json: $number">> res_jq.txt
+#echo "People names: $people"
 
 
-nb_unknown=$jq '.[] | select(.birth_year=="unknown") | length ' people.json
+
+
+nb_unknown=$jq '.[] | select(.birth_year=="unknown")| add' people.json
+
+
+echo '[{"username":"user1"},{"username":"user2"}]' | jq '. | length'
 echo "2. Question statement 2: Unknow date of birth">> res_jq.txt
 echo "Number of unknowns: $nb_unknown" >> res_jq.txt
 

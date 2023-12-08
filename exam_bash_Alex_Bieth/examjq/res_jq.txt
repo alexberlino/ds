@@ -35,3 +35,75 @@ Command: <command to respond>
 Answer: answer question 1 if asked
 4. Question statement 4
 5. Question statement 5
+1. Question statement 1: number of arguments
+Number of arguments in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
+1. Question statement 1: number of arguments
+Number of people in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
+1. Question statement 1: number of arguments
+Number of people in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
+1. Question statement 1: number of arguments
+Number of people in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
+1. Question statement 1: number of arguments
+Number of people in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
+1. Question statement 1: number of arguments
+Number of people in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
+1. Question statement 1: number of arguments
+Number of people in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
+1. Question statement 1: number of arguments
+Number of people in the people.json: 83
+2. Question statement 2: Unknow date of birth
+Number of unknowns: 
+3. Question statement 3: each character's creation date and name.
+Command: <command to respond>
+Answer: answer question 1 if asked
+4. Question statement 4:  characters are born at the same time
+5. Question statement 5
